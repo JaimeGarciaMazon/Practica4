@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/idImagen"
+            android:layout_width="match_parent"
+            android:layout_height="279dp"
+            app:srcCompat="@drawable/fotofondo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/idbtn1"
+                android:layout_width="127dp"
+                android:layout_height="37dp"
+                android:layout_marginEnd="50dp"
+                android:drawableRight="@android:drawable/ic_input_add"
+                android:text="@string/idBtn1"
+                android:textSize="8sp" />
+
+            <Button
+                android:id="@+id/idbtn2"
+                android:layout_width="wrap_content"
+                android:layout_height="39dp"
+                android:drawableRight="@android:drawable/ic_menu_help"
+                android:text="@string/idBtn2"
+                android:textSize="8sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="20dp">
+
+            <Button
+                android:id="@+id/idbtn3"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:layout_marginEnd="15dp"
+                android:drawableRight="@android:drawable/presence_video_away"
+                android:text="@string/idBtn3"
+                android:textSize="8sp" />
+
+            <Button
+                android:id="@+id/idbtn4"
+                android:layout_width="153dp"
+                android:layout_height="wrap_content"
+                android:drawableRight="@android:drawable/star_big_on"
+                android:text="@string/idBtn4"
+                android:textSize="8sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

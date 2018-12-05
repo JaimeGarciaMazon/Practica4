@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Pratica 4</string>
+    <string name="app_name_hijo1">Números Primos</string>
+    <string name="idBtn1">Números Primos</string>
+    <string name="idBtn2">Juego de Aciertos</string>
+    <string name="idBtn3">Desplazando Imágenes</string>
+    <string name="idBtn4">Seleccionando Imágenes</string>
+    <string name="idtxtentero">Intruduce un número Entero:</string>
+    <string name="btnCalcular">Calcular</string>
+    <string name="idtxtResultado">Mostrar si es Primo o no es Primo</string>
+</resources>
