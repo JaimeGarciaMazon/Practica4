@@ -20,7 +20,7 @@ public class FragmentImagen1 extends Fragment {
     {
         // Inflate the layout for this fragment
         v = inflater.inflate(R.layout.fragment_fragment_imagen1, container, false);
-        imagenGato = v.findViewById(R.id.fragment3);
+        imagenGato = v.findViewById(R.id.fragment2);
         return v;
     }
 

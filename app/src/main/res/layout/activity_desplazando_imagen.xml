@@ -19,7 +19,7 @@ tools:context=".DesplazandoImagen">
         android:orientation="vertical">
 
         <fragment
-            android:id="@+id/fragment3"
+            android:id="@+id/Fragment1"
             android:name="com.example.jaime.pratica4.FragmentImagen1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -27,7 +27,7 @@ tools:context=".DesplazandoImagen">
             tools:layout="@layout/fragment_fragment_imagen1" />
 
         <fragment
-            android:id="@+id/fragment4"
+            android:id="@+id/fragment2"
             android:name="com.example.jaime.pratica4.FragmentImagen2"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
