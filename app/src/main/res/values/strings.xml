@@ -35,4 +35,8 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="textViewSeleccionaPaises">textViewPaises</string>
     <string name="textViewSeleccionaCiudad">textViewCiudades</string>
+    <string name="uno">Imagen 1</string>
+    <string name="dos">Imagen 2</string>
+    <string name="tres">Imagen 3</string>
+    <string name="cuatro">Imagen 4</string>
 </resources>

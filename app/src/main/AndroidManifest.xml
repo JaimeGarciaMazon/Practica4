@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DesplazandoImagen"></activity>
+        <activity android:name=".ActivitySeleccionandoImagenes"></activity>
+        <activity android:name=".DesplazandoImagen" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,7 +22,6 @@
             android:name=".NumerosPrimos"
             android:label="@string/app_name_hijo1" />
         <activity android:name=".JuegoAciertos" />
-
     </application>
 
 </manifest>

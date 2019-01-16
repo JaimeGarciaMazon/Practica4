@@ -52,5 +52,13 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(nuevo,DesplazandoImagen.class);
             startActivity(intent);
         }
-    });    }
+    });
+        idbtn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(nuevo,SeleccionandoImagenes.class);
+                startActivity(intent);
+            }
+        });
+    }
 }
