@@ -23,12 +23,10 @@ public class FragmentImagen1 extends Fragment {
         imagenGato = v.findViewById(R.id.fragment3);
         return v;
     }
+
+
     public interface OnFragmentInteractionListener {
-        // TODO: Update argument type and name
-        void onFragmentInteraction(Uri uri);
     }
-
-
 }
 
 

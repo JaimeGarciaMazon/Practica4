@@ -19,8 +19,7 @@ public class FragmentImagen2 extends Fragment {
         v = inflater.inflate(R.layout.fragment_fragment_imagen2, container, false);
         return v;
     }
+
     public interface OnFragmentInteractionListener {
-        // TODO: Update argument type and name
-        void onFragmentInteraction(Uri uri);
     }
 }
