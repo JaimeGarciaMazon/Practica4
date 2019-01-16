@@ -25,7 +25,7 @@ public class JuegoAciertos extends Activity {
     Button buttonVerificar;
     ImageView imageViewResultado;
 
-    public boolean ciudadClicked, paisClicked;
+    public boolean ciudad1, pais1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,28 +55,28 @@ public class JuegoAciertos extends Activity {
         fragmentoPaises = (FragmentPaises) getFragmentManager().findFragmentById(R.id.fragmentPaises);
         fragmentoCiudades = (FragmentCiudades) getFragmentManager().findFragmentById(R.id.fragmentCiudades);
 
-        ciudadClicked = false;
+        ciudad1 = false;
         fragmentoCiudades.listaViewCiudades.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 textViewCiudades.setText(fragmentoCiudades.adaptadorCiudades.getItem(position));
-                ciudadClicked = true;
+                ciudad1 = true;
             }
         });
 
-        paisClicked = false;
+        pais1 = false;
         fragmentoPaises.listViewPaises.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 textViewPaises.setText(fragmentoPaises.adaptadorPaises.getItem(position));
-                paisClicked = true;
+                pais1 = true;
             }
         });
 
         buttonVerificar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (ciudadClicked && paisClicked) {
+                if (ciudad1 && pais1) {
                     imageViewResultado.setVisibility(View.VISIBLE);
                     if (verificarPaisCiudad(textViewPaises.getText().toString(),
                             textViewCiudades.getText().toString())) {

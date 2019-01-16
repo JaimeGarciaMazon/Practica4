@@ -45,10 +45,11 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
         idbtn3.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            Intent intent = new Intent(nuevo,DesplazandoImagenes.class);
+            Intent intent = new Intent(nuevo,DesplazandoImagen.class);
             startActivity(intent);
         }
     });    }
