@@ -50,7 +50,7 @@ public class JuegoAciertos extends Activity {
 
         buttonVerificar = findViewById(R.id.buttonVerificar);
         imageViewResultado = findViewById(R.id.imageViewResultado);
-        imageViewResultado.setVisibility(View.INVISIBLE); // que no se muestre
+        imageViewResultado.setVisibility(View.INVISIBLE); 
 
         fragmentoPaises = (FragmentPaises) getFragmentManager().findFragmentById(R.id.fragmentPaises);
         fragmentoCiudades = (FragmentCiudades) getFragmentManager().findFragmentById(R.id.fragmentCiudades);
