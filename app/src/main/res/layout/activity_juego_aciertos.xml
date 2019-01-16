@@ -1,14 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".JuegoAciertos">
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".JuegoAciertosActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"></LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <fragment
+        android:id="@+id/fragmentPaises"
+        android:name="com.example.jaime.pratica4.FragmentPaises"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_weight="1" />
+
+    <fragment
+        android:id="@+id/fragmentCiudades"
+        android:name="com.example.jaime.pratica4.FragmentCiudades"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_weight="1" />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/textViewPais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:text="@string/textViewSeleccionaPaises"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textViewCiudad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:text="@string/textViewSeleccionaCiudad"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+</LinearLayout>
+
+<Button
+    android:id="@+id/buttonVerificar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal|center"
+    android:text="Verificar" />
+
+<ImageView
+    android:id="@+id/imageViewResultado"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src="@drawable/bien" />
+
 </LinearLayout>
