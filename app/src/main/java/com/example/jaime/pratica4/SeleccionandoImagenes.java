@@ -1,7 +1,6 @@
 package com.example.jaime.pratica4;
 
 
-
 import android.app.Activity;
 import android.app.FragmentTransaction;
 import android.os.Bundle;
