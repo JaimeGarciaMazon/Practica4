@@ -44,5 +44,12 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(nuevo,JuegoAciertos.class);
                 startActivity(intent);
             }
-        });    }
+        });
+        idbtn3.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            Intent intent = new Intent(nuevo,DesplazandoImagenes.class);
+            startActivity(intent);
+        }
+    });    }
 }
