@@ -17,6 +17,8 @@ public class DesplazandoImagen extends AppCompatActivity  implements FragmentIma
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_desplazando_imagen);
+
+
     }
 
 
