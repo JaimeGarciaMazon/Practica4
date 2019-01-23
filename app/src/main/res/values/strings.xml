@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Pratica 4</string>
+    <string name="app_name" translatable="false">Pratica 4</string>
     <string name="app_name_hijo1">Números Primos</string>
     <string name="idBtn1">Números Primos</string>
     <string name="idBtn2">Juego de Aciertos</string>
@@ -32,11 +32,11 @@
     <string name="BuenosAires">Buenos Aires</string>
     <string name="Moscu">Moscú</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="textViewSeleccionaPaises">textViewPaises</string>
-    <string name="textViewSeleccionaCiudad">textViewCiudades</string>
-    <string name="uno">Imagen 1</string>
-    <string name="dos">Imagen 2</string>
-    <string name="tres">Imagen 3</string>
-    <string name="cuatro">Imagen 4</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="textViewSeleccionaPaises" translatable="false">textViewPaises</string>
+    <string name="textViewSeleccionaCiudad" translatable="false">textViewCiudades</string>
+    <string name="uno" translatable="false">Imagen 1</string>
+    <string name="dos" translatable="false">Imagen 2</string>
+    <string name="tres" translatable="false">Imagen 3</string>
+    <string name="cuatro" translatable="false">Imagen 4</string>
 </resources>
