@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pratica 4</string>
+    <string name="app_name_hijo1">" Nombres premiers"</string>
+    <string name="idBtn1">" Nombres premiers"</string>
+    <string name="idBtn2">" Frapper le jeu"</string>
+    <string name="idBtn3">Défilement des images</string>
+    <string name="idtxtentero">" Intruduce un nombre entier:"</string>
+    <string name="idBtn4">Sélection des images</string>
+    <string name="btnCalcular">Calculer</string>
+    <string name="idtxtResultado">Montrer si c\'est Primo ou non Primo</string>
+    <string name="España">" Espagne"</string>
+    <string name="Portugal">Portugal</string>
+    <string name="Francia">France</string>
+    <string name="Italia">Italie</string>
+    <string name="Alemania">Allemagne</string>
+    <string name="Rusia">La russie</string>
+    <string name="Ucrania">Ukraine</string>
+    <string name="Inglaterra">L\'Angleterre</string>
+    <string name="Mexico">Mexique</string>
+    <string name="Argentina">Argentine</string>
+    <string name="Lisboa">Lisbonne</string>
+    <string name="Paris">Paris</string>
+    <string name="Madrid">Madrid</string>
+    <string name="Berlin">Berlin</string>
+    <string name="Kiev">Kiev</string>
+    <string name="Roma">" Rome"</string>
+    <string name="Londres">Londres</string>
+    <string name="Ciudaddemexico">Ciudad de Mexico</string>
+    <string name="BuenosAires">Buenos Aires</string>
+    <string name="Moscu">Moscú</string>
+</resources>

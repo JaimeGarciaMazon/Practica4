@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pratica 4</string>
+    <string name="app_name_hijo1">Prime numbers</string>
+    <string name="idBtn1">Prime numbers</string>
+    <string name="idBtn2">Hitting Game</string>
+    <string name="idBtn3">Scrolling Images</string>
+    <string name="idBtn4">Selecting Images</string>
+    <string name="idtxtentero">" Intruduce an integer number:"</string>
+    <string name="btnCalcular">Calculate</string>
+    <string name="idtxtResultado">Show if it\'s Primo or not Primo</string>
+    <string name="España">Spain</string>
+    <string name="Portugal">Portugal</string>
+    <string name="Francia">France</string>
+    <string name="Italia">Italy</string>
+    <string name="Alemania">Germany</string>
+    <string name="Rusia">Russia</string>
+    <string name="Ucrania">Ukraine</string>
+    <string name="Inglaterra">England</string>
+    <string name="Mexico">Mexico</string>
+    <string name="Argentina">Argentina</string>
+    <string name="Lisboa">Lisbon</string>
+    <string name="Paris">Paris</string>
+    <string name="Madrid">Madrid</string>
+    <string name="Berlin">Berlin</string>
+    <string name="Kiev">Kiev</string>
+    <string name="Roma">Rome</string>
+    <string name="Londres">London</string>
+    <string name="Ciudaddemexico">Mexico City</string>
+    <string name="BuenosAires">Buenos Aires</string>
+    <string name="Moscu">Moscow</string>
+</resources>
